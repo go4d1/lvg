@@ -1,0 +1,25 @@
+<% 	
+    * VS Addin Comment: SourceFile="~\..\deploy\YOUR_PROCESS_CLASS.PRG"
+    pcPageTitle = "Page Title" 	
+%>
+<% Layout="~/views/_layoutpage.wcs" %>
+
+<div class="container">
+    <div class="page-header-text">
+        <i class="far fa-list-alt"></i> 
+    
+    </div>
+
+    <h1 class="ok">Love this Stuff</h1>
+</div>            
+
+<!-- remove sections if you're not using them -->
+<% section="headers" %>
+<style>
+    h1.ok { color:fuchsia; font:300 14px/18px Ariel;}
+</style>
+<% endsection %>
+
+<% section="scripts" %>
+
+<% endsection %>
